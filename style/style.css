@@ -1,12 +1,66 @@
-:root {
-    --color-primary: #008cff;
-    --color-btn-primary-bg: linear-gradient(93deg, #53b2fe, #065af3);
-    --color-btn-primary-text: #fff;
-    --color-btn: #008cff;
-    --btn-border-radius: 4px
+/* OFFERS CSS*********** */
+.offers{
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+}
+.offers-child{
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px 10px;
+}
+.offers-first-img{
+    padding-top: 10px;
+}
+.offers-child > div > img{
+   padding: 0px 7px 0px 7px;
+}
+.offers img{
+    width: 100%;
 }
 
-body,
+/* DOWN LOAD APP NOE CSS************************ */
+.down-app-now{
+  width: 80%;
+  margin: auto;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  margin-top: 50px;
+  border-radius: 15px;
+}
+.down-app-now img{
+    width: 100%;
+}
+
+/* TRIP MONEY CSS******************************** */
+.trip-money{
+  width: 80%;
+  margin: auto;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  margin-top: 25px;
+  border-radius: 15px;
+}
+.trip-money img{
+    width: 100%;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+/* SEVERAL FLIGHTS CSS****************************** */
+.several-flights{
+    width: 80%;
+    margin: auto;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    margin-top: 50px;
+    border-radius: 15px;
+}
+.several-flights img{
+    width: 100%;
+}
+
+
 html {
     margin: 0;
     padding: 0
@@ -31,13 +85,15 @@ ul {
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
     font-family: "Lato";
-    color: rgb(107, 107, 107);
+    color: rgb(94, 94, 94);
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
 }
 .background {
-    background: rgb(232, 232, 232) ;
+    background: #f2f2f2 ;
     background-repeat: no-repeat;
     background-image: linear-gradient(to bottom, #051322, #15457c);
     background-size: 100% 500px;
@@ -45,12 +101,19 @@ body {
     justify-content: center;
     height: 500px;
 }
+/* nav area  */
+
+nav{
+    display: flex;
+}
+
 .container {
     width: 1200px;
 }
 .logo {
     height: 36px;
     width: 113px;
+    margin: 10px;
 }
 .data {
     display: flex;
@@ -1021,6 +1084,7 @@ html[dir=ltr] .userSection li {
 .aboutMMT .aboutDesc .heading {
     letter-spacing: .31px
 }
+/* footer   */
 
 .footerBottom {
     background: #000;
