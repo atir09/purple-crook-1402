@@ -279,6 +279,7 @@ calendor.addEventListener("change",function(){
     }
 })
 
+console.log("js working")
 
 let login=document.querySelector(".login");
 login.addEventListener("click",function(){
@@ -303,6 +304,7 @@ flight_second_btn.addEventListener("click",function(){
 
 let search_button=document.querySelector(".search-button");
 search_button.addEventListener("click",function(){
+    console.log("searching")
     searchData={
         from:document.getElementById("fromh1").innerText,
         to:document.getElementById("toh1").innerText,
@@ -317,10 +319,38 @@ search_button.addEventListener("click",function(){
 
 let hotel=document.querySelector("#hotel");
 hotel.addEventListener("click",function(){
-    window.location.assign("home.html")
+    window.location.assign("hotelhome.html")
 })
 
 let second_hotel_btn=document.querySelector("#second_hotel_btn");
 second_hotel_btn.addEventListener("click",function(){
     window.location.assign("hotelhome.html")
 })
+
+// ////////////////////////////////////////////////////
+
+
+navbar=document.querySelector(".floatingnav")
+    // navbar.style.display="none"
+    cate=document.querySelector(".categories")
+    const observer=new IntersectionObserver((entries)=>{
+        // console.log("p");
+        const ent = entries[0]
+        ent.isIntersecting===false? navbar.classList.add("sticky"):navbar.classList.remove("sticky")
+    },{
+        root:null,
+        rootMargin: "",
+        threshold:0,
+    })
+    observer.observe(cate)
+
+    // ///////////////////////////////////////////
+
+    let login_succes=localStorage.getItem("name")
+
+    if(login_succes=="login_succesfull"){
+        let login=document.querySelector(".login")
+        login.style.display="none"
+        let traveller=document.getElementById("hii_traveler")
+        traveller.style.display="block"
+    }

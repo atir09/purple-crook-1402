@@ -69,8 +69,9 @@ let month = date.getMonth() + 1;
 let year = date.getFullYear();
 ci = document.getElementById("ci");
 co = document.getElementById("co");
-ci.innerHTML = `<input type="date" id="cid" value="${year}-0${month}-${day}">`;
-co.innerHTML = `<input type="date" id="cod" min="${year}-0${month}-${day + 1}" value="${year}-0${month}-${day + 1}">`;
+dit=JSON.parse(localStorage.getItem("date"))
+ci.innerHTML = `<input type="date" id="cid" value="${dit.ci}">`;
+co.innerHTML = `<input type="date" id="cod" value="${dit.co}">`;
 ing = document.querySelector("#ing");
 rq = document.querySelector("#rq");
 about = document.querySelector("#about");
@@ -88,11 +89,6 @@ amenities.innerText = `Amenities at ${data.hotelname}`;
 book = document.getElementById("book");
 book.onclick = () => {
   localStorage.setItem("book", JSON.stringify(data));
-  let op = {
-  ci: cid.value,
-  co: cod.value,
-};
-  localStorage.setItem("date", JSON.stringify(op));
   window.location.href = "./hotelpayment.html";
 };
 

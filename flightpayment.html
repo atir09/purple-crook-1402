@@ -329,10 +329,10 @@
                         <div style="display:flex;">
                             <div style="display: grid;">
                                 <small style="font-size: 11px;color: #4a4a4a;margin-left: 40px;">FULL NAME</small>
-                                <input type="text" name="" id="" placeholder="First Name"
+                                <input type="text"  placeholder="First Name"
                                     style="padding: 10px 10px 10px 10px;margin-left:40px;">
                             </div>
-                            <input type="text" name="" id="" placeholder="Last Name"
+                            <input type="text"  placeholder="Last Name"
                                 style="padding: 10px 10px 10px 10px;margin-left: 10px;height:18px;margin-top:15px;">
                         </div>
                     </div>
@@ -406,11 +406,11 @@
                 <input type="number" placeholder="Enter Year" style="padding: 10px 10px 10px 10px ;">
             </div>
             <div>
-                <label for="">CVV</label><br>
+                <label for="" >CVV</label><br>
                 <input type="password" placeholder="Enter CVV" style="padding: 10px 10px 10px 10px ;">
             </div>
         </div>
-        <button id="search"><b>PAY</b></button>
+        <button id="search" class="pay"><b>PAY</b></button>
     </div>
     <div id="fade" class="black_overlay"></div>
 </body>
@@ -544,5 +544,14 @@
         atp.innerText = `₹ ${bookingDetails.passenger * bookingDetails.total} `
     }
 
-
+    pay=document.querySelector(".pay")
+    light=document.getElementById("light")
+    pay.onclick=()=>{
+        setTimeout(() => {
+            light.innerHTML=`<img src="New folder/Paymentsuccessful21.png" alt="" width="100%">`
+            setTimeout(() => {
+                window.location.href = "index.html";
+            }, 2000);
+        }, 2000);
+    }
 </script>
