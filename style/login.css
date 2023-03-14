@@ -1,7 +1,7 @@
 #login_page{
-    width: 38%;
+    width: 34%;
     margin: auto;
-    height: 92vh;
+    height: 85vh;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 10px;
     /* padding-top: 30px; */
@@ -28,12 +28,11 @@
     height:80%;
     border-radius: 30px;
     margin: 0;
-    background-image: var(--color-btn-primary-bg,linear-gradient(93deg,#53B2FE,#065AF3));
+    background-image: var(--color-btn-primary-bg,linear-gradient(93deg,#53b2fe,#065af3));
     color: white;
     font-weight: 900;
     font-size: 15px;
     border:none;
-    cursor: pointer;
 }
 #sign_up_button{
     width:49%;
@@ -44,8 +43,7 @@
     font-size: 15.3px;
     font-family: sans-serif;
     border: none;
-    color:#4A4A4A;
-    cursor: pointer;
+    color:#4A4A4A
 }
 #p_tag{
     margin-top: 45px;
@@ -75,7 +73,6 @@
    border:1px solid #939090;
    font-size: 14px;
    margin-bottom: 20px;
-   cursor: pointer;
 }
 #otp_input{
     width:85%;
@@ -110,7 +107,6 @@ margin-right: 70px;
     font-size: 15px;
     border:0px;
     margin-bottom: 25px;
-    cursor: pointer;
 }
 #new_continue{
     width:90%;
@@ -123,7 +119,6 @@ margin-right: 70px;
     font-size: 15px;
     border:0px;
     margin-bottom: 25px;
-    cursor: pointer;
 }
 #hr{
     width:90%;
@@ -134,7 +129,7 @@ margin-right: 70px;
 }
 #hr>hr{
     width:33%;
-    border:0.1px solid #D7D3D3;
+    border:0.1px solid #d7d3d3;
 }
 #hr>hr+span{
    color:#a5a2a2;
@@ -144,6 +139,7 @@ margin-right: 70px;
    margin: 0px 5px 0px 5px;
 }
 #google_image{
+ 
   height:32px;
   display: block;
   margin: auto;
@@ -152,7 +148,6 @@ margin-right: 70px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 4px;
   margin-bottom: 90px;
-  cursor: pointer;
 }
 #privacy_policy{
     width:92%;
@@ -163,17 +158,17 @@ margin-right: 70px;
 }
 #privacy_policy span{
     color:#008CFF;
-    cursor: pointer;
 }
 #signup_page{
     width: 34%;
     margin: auto;
-    height: 95vh;
+    height: 94vh;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 10px;
     padding-top: 30px;
 }
 #second_button{
+   
     height:5vh;
     width: 85%;
     margin: auto;
@@ -192,21 +187,20 @@ margin-right: 70px;
     font-size: 15.3px;
     font-family: sans-serif;
     border: none;
-    color:#4A4A4A;
-    cursor: pointer;
+    color:#4A4A4A
+
 }
 #sign_up_buttons{
     width:49%;
     height:80%;
     border-radius: 30px;
     margin: 0;
-    /* background-image: var(--color-btn-primary-bg,linear-gradient(93deg,#53B2FE,#065AF3)); */
+    /* background-image: var(--color-btn-primary-bg,linear-gradient(93deg,#53b2fe,#065af3)); */
     color: white;
     font-weight: 900;
     font-size: 15px;
     border:none;
-    background-image: linear-gradient(93deg,#F0772C,#F95776);
-    cursor: pointer;
+    background-image: linear-gradient(93deg,#f0772c,#f95776);
 }
 #frist_p{
     margin-top: 40px;
@@ -216,6 +210,7 @@ margin-right: 70px;
     margin-left: 5%;
     line-height: 2px;
     font-weight:600;
+
     /* border:1px solid red; */
 }
 #p_tags{
@@ -226,12 +221,13 @@ margin-right: 70px;
   color:#2e2d2d;
   font-size: 15px;
   font-weight: 600;
+  display: flex;
+  justify-content: space-between;
 }
 #p_tags span{
     color:#FF664B;
     font-family: sans-serif;
     font-size: 12px;
-    cursor: pointer;
 }
 #input_or_countinue_div{
     width:90%;
@@ -239,6 +235,7 @@ margin-right: 70px;
     margin-top: 50px;
 }
 #continue_buttons{
+ 
  width:30%;
  display: block;
  margin: auto;
@@ -250,7 +247,6 @@ margin-right: 70px;
  border:0px;
  /* margin-bottom: 25px; */
  margin-bottom: 20px;
- cursor: pointer;
 }
 #use_bussiness_account{
 font-size: 12px;
@@ -260,6 +256,7 @@ color:#9B9B9B;
 font-weight: 700;
 }
 #google_images{
+ 
  height:32px;
  display: block;
  margin: auto;
@@ -268,7 +265,6 @@ font-weight: 700;
  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
  padding: 4px;
  margin-bottom: 12px;
- cursor: pointer;
 }
 #privacy_policys{
    width:92%;
@@ -282,7 +278,6 @@ font-weight: 700;
 }
 #privacy_policys span{
     color:#FF664B;;
-    cursor: pointer;
 }
 #named_input{
 width:93%;
@@ -294,7 +289,6 @@ width:93%;
    border:1px solid #FF664B;
    font-size: 14px;
    margin-bottom: 20px;
-   cursor: pointer;
 }
 #email_input{
     width:93%;
@@ -306,7 +300,6 @@ width:93%;
    border:1px solid #FF664B;
    font-size: 14px;
    margin-bottom: 20px;
-   cursor: pointer;
 }
 #numbers_input{
     width:93%;
@@ -318,7 +311,6 @@ width:93%;
    border:1px solid #FF664B;
    font-size: 14px;
    margin-bottom: 20px;
-   cursor: pointer;
 }
 #password_input{
     width:93%;
@@ -330,7 +322,6 @@ width:93%;
    border:1px solid #FF664B;
    font-size: 14px;
    margin-bottom: 20px;
-   cursor: pointer;
 }
 ::-webkit-scrollbar {
     width: 8px;
@@ -379,6 +370,7 @@ input{
     height:20px;
     text-align: center;
 }
+
 @media all and (min-width:300px) and (max-width:1286px) {
     #hr>hr+span{
         margin-top: 3px;
@@ -395,13 +387,16 @@ input{
 #sign_up_buttons{
     font-size: 13px;
 }
+
+
 @media all and (min-width:300px) and (max-width:1109px) {
     #frist_button{
         width: 70%;
-        /* background-color: #53B2FE; */
+        /* background-color: #53b2fe; */
     }
     #login_button{
         font-size: 10px;
+      
     }
     #sign_up_button{
         font-size: 10px;
@@ -420,14 +415,16 @@ input{
         font-size: 8px;
      }
 }
+
 @media all and (min-width:300px) and (max-width:927px) {
     /* for both button */
     #frist_button{
         width: 90%;
-        /* background-color: #53B2FE; */
+        /* background-color: #53b2fe; */
     }
     #login_button{
         font-size: 7px;
+        
     }
     #sign_up_button{
         font-size: 7px;
@@ -436,6 +433,7 @@ input{
         margin-top: 5px;
         font-size: 6px;
      }
+
 /* for p_tag */
 #p_tag{
     margin-top: 45px;
@@ -446,6 +444,7 @@ input{
   font-size: 12px;
   font-weight: 600;
 }
+
 /* for number_input */
 #number_input{
     width:82%;
@@ -480,21 +479,25 @@ input{
         margin-top: 5px;
         font-size: 6px;
      }
+    
 }
 @media all and (min-width:300px) and (max-width:760px) {
     #login_buttons{
       margin-bottom: 0px;
     }
     #sign_up_buttons{
+   
     }
 }
+
 @media all and (min-width:300px) and (max-width:670px) {
     #frist_button{
         width: 95%;
-        /* background-color: #53B2FE; */
+        /* background-color: #53b2fe; */
     }
     #login_button{
         font-size: 7px;
+        
     }
     #sign_up_button{
         font-size: 7px;
@@ -506,10 +509,11 @@ input{
      padding: 8px;
     }
 }
+
 @media all and (min-width:300px) and (max-width:635px) {
     #frist_button{
         width: 95%;
-        /* background-color: #53B2FE; */
+        /* background-color: #53b2fe; */
     }
     #login_button{
         font-size: 4px;
@@ -517,11 +521,15 @@ input{
         margin-right: 20px;
     }
     #sign_up_button{
+      
         font-size: 4px;
         width:35%;
         margin-right: 20px;
     }
+
 }
+
+
 @media all and (min-width:300px) and (max-width:550px) {
     #number_input{
         font-size: 9px;
@@ -542,14 +550,9 @@ input{
         width:10%;
     }
 }
+
 @media all and (min-width:0px) and (max-width:338px) {
 body{
     display: none;
 }
 }
-
-#p_tags{
-    display: flex;
-    justify-content: space-between;
-}
-

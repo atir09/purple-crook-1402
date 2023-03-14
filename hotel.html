@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel</title>
-    <link rel="stylesheet" href="style/hotel.css">
+    <link rel="stylesheet" href="./style/hotel.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
 <body>
     <!-- ---------------------------------------------------------navbar1------------------------------------------------------------------------------- -->
     <nav class="nav1">
-        <a href="index.html"><img src="./New folder/Take-a-trip-logo-final.jpg" alt="" width="130px" height="45px" style="margin-right: 30px;margin-top: 10px;cursor: pointer;"></a>
+        <img src="./New folder/Take-a-trip-logo-final.jpg" alt="" width="130px" height="45px" style="margin-right: 30px;margin-top: 10px;">
         <div>
             <button>
             <img src="./New folder/flight.png" alt="">
@@ -63,6 +63,19 @@
         <button>
             <label for="city">CITY, AREA OR PROPERTY<span class="hsw_inputBoxArrow"></span></label>
             <select name="" id="city">
+                <optgroup label="Popular Cities" style="font-size: 15px;color: #4a4a4a;">
+                <option  value="Mumbai" >Mumbai</option>
+                <option  value="Delhi" >Delhi</option>
+                <option  value="Bengaluru">Bengaluru</option>
+                <option  value="Goa">Goa</option>
+                <option  value="Chennai">Chennai</option>
+                <option  value="Jaipur">Jaipur</option>
+                <option  value="Hyderabad">Hyderabad</option>
+                <option  value="Singapore">Singapore</option>
+                <option  value="Dubai">Dubai</option>
+                <option  value="Bangkok">Bangkok</option>
+                </optgroup>
+                
             </select>
         </button>
         <button >
@@ -163,4 +176,4 @@
 
 </body>
 </html>
-<script src="scripts/hotel.js"></script>
+<script src="./scripts/hotel.js"></script>

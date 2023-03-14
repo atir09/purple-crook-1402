@@ -2,10 +2,6 @@
     padding: 0;
     margin: 0;
 }
-body{
-    width: 100vw;
-    overflow-x: hidden;
-}
 
 .offers{
     width: 80%;
@@ -1806,31 +1802,5 @@ body {
     cursor: pointer;
 }
 #second_hotel_btn{
-    cursor: pointer;
-}
-
-
-.floatingnav{
-    display: none;
-}
-.sticky{
-    display: flex;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: white;
-    z-index: 100;
-    height: 70px;
-}
-
-a i{
-    text-decoration: none;
-}
-
-#hii_traveler{
-    padding-top:20px ;
-    width:150px;
-    text-align: center;
-    display: none;
     cursor: pointer;
 }

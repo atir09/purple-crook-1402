@@ -46,6 +46,7 @@
 .logo{
     height: 40px;
     width: 116px;
+    cursor: pointer;
 }
 .data{
     display: flex;
@@ -157,7 +158,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     height: 44px;
     background-color: #2b3745;
     color: white;
-    font-size: 14px;
+    font-size: 0.7rem;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -170,6 +171,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     cursor: pointer;
     margin-left: 1000px;
 }
+
 .login{ 
     width: 216px;
     height: 44px;
@@ -215,11 +217,4 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     width: 100%;
     background-color: white;
     z-index: 100;
-}
-.admin{ 
-    margin-left: 350px;
-    font-size: 14px;
-    color: white;
-    padding: 15px 30px 15px 30px;
-    border-radius: 5px;
-}
+    }

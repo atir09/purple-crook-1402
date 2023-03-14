@@ -29,25 +29,23 @@ var display_name=[]
 let continue_button = document.getElementById("continue_button");
 continue_button.addEventListener("click", function () {
 let flag=true;
-let data_inside_input="something"
   fetch("http://localhost:3000/users")
     .then((res) => {
       return res.json()
     })
     .then((data) => {
       console.log(data)
-     
+      // bag = [...data]
+      // let a = render(bag)
     
       data.forEach((ele)=>{
         let  number_input = document.getElementById("number_input").value;
-     
-        if(number_input===ele.number){
+        // console.log("ye"+number_input)
+        // console.log(ele.number)
+        if(number_input==ele.number){
           flag=false;
            display_name=ele.name;
-        }else if(number_input.length=="0"){
-          flag="nothing"
         }
-        
       })
        if(flag==false){
         otp.style.display = "block"
@@ -63,36 +61,81 @@ let data_inside_input="something"
         }, 3000)
         continue_button.style.display = "none"
         new_continue.style.backgroundColor = "#008CFF"
-      }else if(flag=="nothing"){
-       alert("Please fill something")
-      }else{
-        alert("This number is not Registered")
-      }
+      } else {
+        alert("this number is not Registered")
+       }
 
-    }) 
+
+
+      // if (a == true) {
+      //   otp.style.display = "block"
+
+      //   let b = generateOTP()
+      //   console.log(b)
+      //   scope = b
+      
+      //   setTimeout(() => {
+      //     your_otp.style.display = "block";
+      //     otp_display.style.display = "block";
+      //     otp_display.innerText = b;
+      //   }, 3000)
+      //   continue_button.style.display = "none"
+      //   new_continue.style.backgroundColor = "#008CFF"
+      // } else {
+      //   alert("this number is not Registered")
+      // }
+
+    })
+
+  // continue_button.style.display="none"
+  // new_continue.style.backgroundColor="#008CFF"
 })
 
 let new_continue = document.getElementById("new_continue")
 new_continue.addEventListener('click', function () {
- 
+  // console.log(scope)
   let otp_inputs = document.getElementById("otp_input").value;
-  if (otp_inputs === scope) {
+  if (otp_inputs == scope) {
     alert("Login Succesfull")
-    localStorage.setItem("name","login_succesfull")
+    localStorage.setItem("name",display_name)
     window.location.assign("index.html")
-    // localStorage.setItem("name",display_name)
-  
-  }else if(otp_inputs==""){
-   alert ("Please fill otp")
-  }else if( number_input==""){
-    alert("Please fill your number")
+    // let img=document.createElement("img");
+    // img.setAttribute("src","https://gifimage.net/wp-content/uploads/2017/08/loading-gif-transparent-25.gif")
+    // let apn=document.getElementById("apn");
+    // apn.append(img)
+
+    // setTimeout(() => {
+    //   alert("Login Succesfull")
+    //   window.location.assign("index.html")
+    // }, 3000);
+   
   } else{
-    alert('Please fill correct otp')
+    alert('please fill correct otp')
   }
-  
+  // if(otp_inputs==scope){
+  //   localStorage.setItem("name",display_name)
+  // }
 })
 
+// var new_number;
+// function render(bag) {
+//   var number_input = document.getElementById("number_input").value;
+//   bag.forEach((el) => {
 
+//     new_number = el.number;
+//     // console.log(new_number == number_input)
+//     console.log(new_number)
+//     console.log( 'ye' +number_input)
+//   })
+//   if (new_number == number_input) {
+//     return true
+//   } else {
+//     return false;
+//   }
+// }
+
+
+// for login btn background color
 
 function change() {
   let input_value = document.getElementById("number_input").value;
@@ -165,13 +208,12 @@ registerForm.addEventListener("submit", function (event) {
           cre_one.style.display = "block"
           return
         }
-      else if (inputMobile.length < 10 || inputMobile.length > 10) {
+        if (inputMobile.length < 10 || inputMobile.length > 10) {
           cre_two.style.display = "block"
           return
         }
-       else if (passwords.value.length < 4) {
-          cre_three.style.display = "block"
-          return
+        if (passwords.value.length < 4) {
+          return cre_three.style.display = "block"
         }
 
 
@@ -189,11 +231,11 @@ registerForm.addEventListener("submit", function (event) {
           },
           body: JSON.stringify(users)
         })
-        alert("Registered Succesfully")
+        alert("succesfull Registerd")
 
       }
       else {
-        alert("This number is already registered")
+        alert("this number is already register")
       }
     })
 })

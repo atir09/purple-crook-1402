@@ -1,18 +1,3 @@
-dit=JSON.parse(localStorage.getItem("date"))
-city = document.getElementById("city");
-city.innerHTML = `
-<optgroup label="Popular Cities" style="font-size: 15px;color: #4a4a4a;">
-                <option selected>${dit.city}</option>
-                <option  value="Delhi" >Delhi</option>
-                <option  value="Bengaluru">Bengaluru</option>
-                <option  value="Goa">Goa</option>
-                <option  value="Chennai">Chennai</option>
-                <option  value="Jaipur">Jaipur</option>
-                <option  value="Hyderabad">Hyderabad</option>
-                <option  value="Singapore">Singapore</option>
-                <option  value="Dubai">Dubai</option>
-                <option  value="Bangkok">Bangkok</option>
-                </optgroup>`;
 // --------------------------------------------------------------sticky nav bar---------------------------------------------------------------------------//
 window.onscroll = function() {myFunction(),myFunction1()};
 var navbar = document.querySelector(".nav2");
@@ -142,7 +127,7 @@ function display(data){
     sett.className="sett"
     main=document.createElement("div")
     main.className="main"
-    let mainimg=document.createElement("img")
+    mainimg=document.createElement("img")
     mainimg.id="img"
     mainimg.src=element.mainimg
     main.append(mainimg)
@@ -152,9 +137,7 @@ function display(data){
     img1.id="img1"
     img1.src=element.img1
     img1.onclick=()=>{
-      
     mainimg.src=element.img1
-
     }
     img2=document.createElement("img")
     img2.id="img2"
@@ -243,10 +226,14 @@ function display(data){
   });
 }
 // --------------------------------------------------------------main body--------------------------------------------------------------------------------//
+const date = new Date();
+let day = date.getDate();
+let month = date.getMonth() + 1;
+let year = date.getFullYear();
 ci=document.getElementById("ci")
 co=document.getElementById("co")
-ci.innerHTML=`<input type="date" id="cid" value="${dit.ci}">`
-co.innerHTML=`<input type="date" id="cod" value="${dit.co}">`
+ci.innerHTML=`<input type="date" id="cid" value="${year}-0${month}-${day}">`
+co.innerHTML=`<input type="date" id="cod" min="${year}-0${month}-${day+1}" value="${year}-0${month}-${day+1}">`
 search=document.getElementById("search")
 
 
