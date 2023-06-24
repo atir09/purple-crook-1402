@@ -320,6 +320,11 @@
       "adminName": "murlikhaire28@gmail.com",
       "password": 123456,
       "id": 1
+    },
+    {
+      "adminName": "atir@admin.com",
+      "password": "atir",
+      "id": 1
     }
   ],
   "hotels": [

@@ -77,46 +77,46 @@ Start the server
 ## Home Page
 
 
-![image](https://drive.google.com/uc?export=view&id=1rMXPPAjk20bqgEOFdIpFbspYeC1OAtJV)
+![image](https://github.com/atir09/purple-crook-1402/blob/main/img/1.png)
 
 
 ## Login and Otp verification
 
-![image](https://drive.google.com/uc?export=view&id=1rGoQBin8NQ0AVW-u0jLmqekKZXSZ4YI6)
+![image](https://github.com/atir09/purple-crook-1402/blob/main/img/2.png)
 
 
 ## Flight Page
 
-![image](https://drive.google.com/uc?export=view&id=1vQvpRQcpf3yajdCpp5NTL1Rs0nss4QJm)
+![image](https://github.com/atir09/purple-crook-1402/blob/main/img/4.png)
 
 
 ## Hotel Page
 
-![image](https://drive.google.com/uc?export=view&id=1QXdTwlOVuxz7sd72FlGUSghR8NMeEkM1)
+![image](https://github.com/atir09/purple-crook-1402/blob/main/img/7.png)
 
 
 ##Booking Page
 
-![image](https://drive.google.com/uc?export=view&id=1t9viNPDOWB1AnssQaxvIVoSughDD0Y2h)
+![image](https://github.com/atir09/purple-crook-1402/blob/main/img/5.png)
 
 
 ##Payment Page
 
-![image](https://drive.google.com/uc?export=view&id=1cYK5spLx1zL-jitKwI-p7ftXGWDqu63h)
+![image](https://github.com/atir09/purple-crook-1402/blob/main/img/6.png)
 
 
 ##Admin Site
 
-![image](https://drive.google.com/uc?export=view&id=1vTKgKJ5HIVUhYReB2QyWM5Nzg5Y141GX)
+![image](https://github.com/atir09/purple-crook-1402/blob/main/img/9.png)
 
 ##Admin Site(Flight)
 
-![image](https://drive.google.com/uc?export=view&id=1rXvvNmKxOQx79fU55vIj1dv854byACVs)
+![image](https://github.com/atir09/purple-crook-1402/blob/main/img/10.png)
 
 
 ##Admin Site(Hotel)
 
-![image](https://drive.google.com/uc?export=view&id=1Ek5uuromp3QiE0rfxHeFzkINpXze4Oz9)
+![image](https://github.com/atir09/purple-crook-1402/blob/main/img/11.png)
 
 
 
