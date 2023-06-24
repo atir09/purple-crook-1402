@@ -95,26 +95,26 @@ Start the server
 ![image](https://github.com/atir09/purple-crook-1402/blob/main/img/7.png)
 
 
-##Booking Page
+## Booking Page
 
 ![image](https://github.com/atir09/purple-crook-1402/blob/main/img/5.png)
 
 
-##Payment Page
+## Payment Page
 
 ![image](https://github.com/atir09/purple-crook-1402/blob/main/img/6.png)
 
 
-##Admin Site
+## Admin Site
 
 ![image](https://github.com/atir09/purple-crook-1402/blob/main/img/9.png)
 
-##Admin Site(Flight)
+## Admin Site(Flight)
 
 ![image](https://github.com/atir09/purple-crook-1402/blob/main/img/10.png)
 
 
-##Admin Site(Hotel)
+## Admin Site(Hotel)
 
 ![image](https://github.com/atir09/purple-crook-1402/blob/main/img/11.png)
 
